@@ -1,0 +1,515 @@
+{
+  "users": [
+    {
+      "_id": "6a0d6085a2bb648a52d264b6",
+      "username": "admin",
+      "email": "admin@hotelpro.rw",
+      "password": "$2b$10$7asDCPsJ.GvR.MecgcuAl.0NXAIeaYNUtXpd3M91BpuwZU0zF3cxO",
+      "role": "Admin",
+      "createdAt": "2026-05-20T07:19:33.580Z",
+      "updatedAt": "2026-05-20T07:19:33.580Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d82c284db754dfd8e8da8",
+      "username": "jackson",
+      "email": "niyontegerejejackson636@gmail.com",
+      "password": "$2b$10$Gsiz5ZHgyLi/cCZCadHrLO.OQn/2JbdoCwWaVjS2TLrkm.xLLUYBm",
+      "role": "Client",
+      "createdAt": "2026-05-20T09:45:38.701Z",
+      "updatedAt": "2026-05-20T09:45:38.701Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d98fbc009981bd46b1b4c",
+      "username": "evra gasana",
+      "email": "dushimeevra@gmail.com",
+      "password": "$2b$10$qwaLVGJa0PQ9eNGy5Ze.oen60bW4yQJPfhOKQqisF7Lo3QidcYqAa",
+      "role": "Client",
+      "createdAt": "2026-05-20T11:20:27.380Z",
+      "updatedAt": "2026-05-20T11:20:27.380Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc338e969c133793aa4fd",
+      "username": "kamanda",
+      "email": "kamanda@gmail.com",
+      "password": "$2b$10$ANDUyeGF1ZmqU6BuyKNF6eJRbWMX3FS/CYjBQshgNtpbSWtcnkNFW",
+      "role": "Client",
+      "createdAt": "2026-05-20T14:20:40.575Z",
+      "updatedAt": "2026-05-20T14:20:40.575Z",
+      "__v": 0
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "6a0dc637e969c133793aa50d",
+      "roomNumber": "1",
+      "roomType": "Single",
+      "pricePerNight": 12,
+      "status": "Available",
+      "description": "wdf",
+      "image": "/uploads/image-1779287607725.jpg",
+      "createdAt": "2026-05-20T14:33:27.741Z",
+      "updatedAt": "2026-05-20T14:33:27.741Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc7b5f3a0742117ac81db",
+      "roomNumber": "2",
+      "roomType": "Single",
+      "pricePerNight": 29,
+      "status": "Available",
+      "description": "room 2",
+      "image": "/uploads/image-1779287988993.jpg",
+      "createdAt": "2026-05-20T14:39:49.050Z",
+      "updatedAt": "2026-05-20T14:39:49.050Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc7d6f3a0742117ac81dd",
+      "roomNumber": "3",
+      "roomType": "Single",
+      "pricePerNight": 29,
+      "status": "Available",
+      "description": "room 3",
+      "image": "/uploads/image-1779288022582.jpg",
+      "createdAt": "2026-05-20T14:40:22.599Z",
+      "updatedAt": "2026-05-20T14:40:22.599Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc7ebf3a0742117ac81df",
+      "roomNumber": "4",
+      "roomType": "Single",
+      "pricePerNight": 30,
+      "status": "Available",
+      "description": "room 4",
+      "image": "/uploads/image-1779288043871.jpg",
+      "createdAt": "2026-05-20T14:40:43.887Z",
+      "updatedAt": "2026-05-20T14:40:43.887Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc803f3a0742117ac81e1",
+      "roomNumber": "5",
+      "roomType": "Single",
+      "pricePerNight": 34,
+      "status": "Available",
+      "description": "room 5",
+      "image": "/uploads/image-1779288067462.jpg",
+      "createdAt": "2026-05-20T14:41:07.478Z",
+      "updatedAt": "2026-05-20T14:41:07.478Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc817f3a0742117ac81e3",
+      "roomNumber": "6",
+      "roomType": "Single",
+      "pricePerNight": 26,
+      "status": "Available",
+      "description": "room 6",
+      "image": "/uploads/image-1779288087131.jpg",
+      "createdAt": "2026-05-20T14:41:27.146Z",
+      "updatedAt": "2026-05-20T14:41:27.146Z",
+      "__v": 0
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "6a0dc084e969c133793aa4f7",
+      "user": "6a0d98fbc009981bd46b1b4c",
+      "room": "6a0d99aac009981bd46b1b4d",
+      "checkInDate": "2026-05-20T00:00:00.000Z",
+      "checkOutDate": "2026-05-27T00:00:00.000Z",
+      "totalAmount": 105,
+      "bookingStatus": "Approved",
+      "paymentStatus": "Partial",
+      "createdAt": "2026-05-20T14:09:08.181Z",
+      "updatedAt": "2026-05-20T14:09:28.665Z",
+      "__v": 0
+    }
+  ],
+  "payments": [
+    {
+      "_id": "6a0d830584db754dfd8e8dab",
+      "booking": "6a0d82f684db754dfd8e8da9",
+      "amountPaid": 200,
+      "paymentDate": "2026-05-20T09:46:45.838Z",
+      "receivedBy": "6a0d6085a2bb648a52d264b6",
+      "createdAt": "2026-05-20T09:46:45.838Z",
+      "updatedAt": "2026-05-20T09:46:45.838Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d8698c009981bd46b1b47",
+      "booking": "6a0d8670c009981bd46b1b45",
+      "amountPaid": 20,
+      "paymentDate": "2026-05-20T10:02:00.869Z",
+      "receivedBy": "6a0d6085a2bb648a52d264b6",
+      "createdAt": "2026-05-20T10:02:00.870Z",
+      "updatedAt": "2026-05-20T10:02:00.870Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d882dc009981bd46b1b4b",
+      "booking": "6a0d87d5c009981bd46b1b49",
+      "amountPaid": 20,
+      "paymentDate": "2026-05-20T10:08:45.754Z",
+      "receivedBy": "6a0d6085a2bb648a52d264b6",
+      "createdAt": "2026-05-20T10:08:45.754Z",
+      "updatedAt": "2026-05-20T10:08:45.754Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d9ab7c009981bd46b1b50",
+      "booking": "6a0d99f5c009981bd46b1b4e",
+      "amountPaid": 5.51,
+      "paymentDate": "2026-05-20T11:27:51.898Z",
+      "receivedBy": "6a0d6085a2bb648a52d264b6",
+      "createdAt": "2026-05-20T11:27:51.898Z",
+      "updatedAt": "2026-05-20T11:27:51.898Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc098e969c133793aa4f9",
+      "booking": "6a0dc084e969c133793aa4f7",
+      "amountPaid": 100,
+      "receivedBy": "6a0d6085a2bb648a52d264b6",
+      "paymentDate": "2026-05-20T14:09:28.659Z",
+      "createdAt": "2026-05-20T14:09:28.659Z",
+      "updatedAt": "2026-05-20T14:09:28.659Z",
+      "__v": 0
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "6a0d82f684db754dfd8e8daa",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "message": "admin has requested to book Room 1.",
+      "isRead": false,
+      "createdAt": "2026-05-20T09:46:30.815Z",
+      "updatedAt": "2026-05-20T09:46:30.815Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d8670c009981bd46b1b46",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "message": "admin has requested to book Room 2.",
+      "isRead": false,
+      "createdAt": "2026-05-20T10:01:20.166Z",
+      "updatedAt": "2026-05-20T10:01:20.166Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d87d5c009981bd46b1b4a",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "message": "jackson has requested to book Room 3.",
+      "isRead": false,
+      "createdAt": "2026-05-20T10:07:17.721Z",
+      "updatedAt": "2026-05-20T10:07:17.721Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0d99f5c009981bd46b1b4f",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "message": "evra gasana has requested to book Room 001.",
+      "isRead": false,
+      "createdAt": "2026-05-20T11:24:37.200Z",
+      "updatedAt": "2026-05-20T11:24:37.200Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc084e969c133793aa4f8",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "message": "admin has requested to book Room 001.",
+      "isRead": false,
+      "createdAt": "2026-05-20T14:09:08.187Z",
+      "updatedAt": "2026-05-20T14:09:08.187Z",
+      "__v": 0
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": "6a0dbaaea4cf0844572e425c",
+      "action": "BACKUP_CREATED",
+      "user": "60c72b2f9b1d8b2bad000001",
+      "details": "Created database backup archive: backup_1779284654913.json",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-20T13:44:14.931Z",
+      "updatedAt": "2026-05-20T13:44:14.931Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dbfe6e969c133793aa4f2",
+      "action": "BACKUP_RESTORED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Restored database state from: backup_1779285268162.json",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:06:30.465Z",
+      "updatedAt": "2026-05-20T14:06:30.465Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dbffde969c133793aa4f3",
+      "action": "BACKUP_CREATED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Created database backup archive: backup_1779286013636.json",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:06:53.638Z",
+      "updatedAt": "2026-05-20T14:06:53.638Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc063e969c133793aa4f4",
+      "action": "BACKUP_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted backup archive file: backup_1779286013636.json",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:08:35.194Z",
+      "updatedAt": "2026-05-20T14:08:35.194Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc065e969c133793aa4f5",
+      "action": "BACKUP_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted backup archive file: backup_1779285268162.json",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:08:37.533Z",
+      "updatedAt": "2026-05-20T14:08:37.533Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc067e969c133793aa4f6",
+      "action": "BACKUP_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted backup archive file: backup_1779284654913.json",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:08:39.520Z",
+      "updatedAt": "2026-05-20T14:08:39.520Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc0efe969c133793aa4fa",
+      "action": "LOGIN_SUCCESS",
+      "user": "6a0d82c284db754dfd8e8da8",
+      "details": "User jackson logged in successfully",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:10:55.687Z",
+      "updatedAt": "2026-05-20T14:10:55.687Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc129e969c133793aa4fb",
+      "action": "LOGIN_SUCCESS",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "User admin logged in successfully",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:11:53.986Z",
+      "updatedAt": "2026-05-20T14:11:53.986Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc2d8e969c133793aa4fc",
+      "action": "BACKUP_CREATED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Created database backup archive: backup_1779286744665.json",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:19:04.669Z",
+      "updatedAt": "2026-05-20T14:19:04.669Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc338e969c133793aa4fe",
+      "action": "REGISTER_SUCCESS",
+      "user": "6a0dc338e969c133793aa4fd",
+      "details": "User kamanda registered as Client",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:20:40.711Z",
+      "updatedAt": "2026-05-20T14:20:40.711Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc417e969c133793aa4ff",
+      "action": "LOGIN_SUCCESS",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "User admin logged in successfully",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:24:23.599Z",
+      "updatedAt": "2026-05-20T14:24:23.599Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc422e969c133793aa500",
+      "action": "ROOM_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted Room 001",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:24:34.003Z",
+      "updatedAt": "2026-05-20T14:24:34.003Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc449e969c133793aa502",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 1 (Double)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:25:13.967Z",
+      "updatedAt": "2026-05-20T14:25:13.967Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc469e969c133793aa504",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 2 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:25:45.965Z",
+      "updatedAt": "2026-05-20T14:25:45.965Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc492e969c133793aa505",
+      "action": "ROOM_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted Room 1",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:26:26.141Z",
+      "updatedAt": "2026-05-20T14:26:26.141Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc495e969c133793aa506",
+      "action": "ROOM_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted Room 2",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:26:29.852Z",
+      "updatedAt": "2026-05-20T14:26:29.852Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc4cae969c133793aa508",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 1 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:27:22.751Z",
+      "updatedAt": "2026-05-20T14:27:22.751Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc576e969c133793aa509",
+      "action": "ROOM_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted Room 1",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:30:14.137Z",
+      "updatedAt": "2026-05-20T14:30:14.137Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc5f3e969c133793aa50b",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 1 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:32:19.694Z",
+      "updatedAt": "2026-05-20T14:32:19.694Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc5f8e969c133793aa50c",
+      "action": "ROOM_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted Room 1",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:32:24.576Z",
+      "updatedAt": "2026-05-20T14:32:24.576Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc637e969c133793aa50e",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 1 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:33:27.743Z",
+      "updatedAt": "2026-05-20T14:33:27.743Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc74fe969c133793aa510",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 2 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:38:07.931Z",
+      "updatedAt": "2026-05-20T14:38:07.931Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc79af3a0742117ac81da",
+      "action": "ROOM_DELETED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Deleted Room 2",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:39:22.370Z",
+      "updatedAt": "2026-05-20T14:39:22.370Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc7b5f3a0742117ac81dc",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 2 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:39:49.052Z",
+      "updatedAt": "2026-05-20T14:39:49.052Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc7d6f3a0742117ac81de",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 3 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:40:22.602Z",
+      "updatedAt": "2026-05-20T14:40:22.602Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc7ebf3a0742117ac81e0",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 4 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:40:43.890Z",
+      "updatedAt": "2026-05-20T14:40:43.890Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc803f3a0742117ac81e2",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 5 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:41:07.481Z",
+      "updatedAt": "2026-05-20T14:41:07.481Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a0dc817f3a0742117ac81e4",
+      "action": "ROOM_ADDED",
+      "user": "6a0d6085a2bb648a52d264b6",
+      "details": "Added new Room 6 (Single)",
+      "ipAddress": "::1",
+      "createdAt": "2026-05-20T14:41:27.149Z",
+      "updatedAt": "2026-05-20T14:41:27.149Z",
+      "__v": 0
+    }
+  ],
+  "timestamp": "2026-05-20T14:41:57.480Z"
+}
